@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import NavBar from './components/NavBar'
 import Hero from './components/Hero'
+import Projects from './components/Projects'
+import Foot from './components/Foot'
+
 
 
 function App() {
@@ -9,13 +12,14 @@ function App() {
   return (
     <>
       <header >
-        <NavBar/>
+        <NavBar />
       </header>
       <main>
-        <Hero/>
+        <Hero />
+        <Projects />
       </main>
       <footer>
-
+        <Foot />
       </footer>
     </>
   )
