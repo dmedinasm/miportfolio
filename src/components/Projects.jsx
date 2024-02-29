@@ -6,7 +6,7 @@ import dietaryImg from '../assets/dietary.jpg'
 const Projects = () => {
   return (
     <section className="py-12 px-8 md:px-[64px] my-2 flex flex-col">
-        <h1 className="font-montserrat font-bold  text-[200%] md:text-[300%] mb-4 text-start">Proyectos Personales</h1>
+        <h1 className="font-montserrat font-bold  text-[200%] md:text-[300%] mb-4 text-start text-slate-600">Proyectos Personales</h1>
         <p className="font-montserrat text-[110%] md:text-[130%] mb-12 leading-8 md:leading-10">Aquí presento una selección de mis proyectos personales. Cada uno de ellos representa una oportunidad para explorar nuevas ideas, desarrollar mis habilidades y desafiarme a mí mismo.</p>
 
       <div className="flex flex-col gap-10">
