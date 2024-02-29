@@ -2,7 +2,7 @@ import React from 'react'
 import Project from './Project'
 import gpt4Img from '../assets/gpt4uxui.jpg'
 import restaurantImg from '../assets/restaurantuxui.jpg'
-import dietaryImg from '../assets/dietaryplannertool.jpg'
+import dietaryImg from '../assets/dietary.jpg'
 const Projects = () => {
   return (
     <section className="py-12 px-8 md:px-[64px] my-2 flex flex-col">
@@ -28,7 +28,7 @@ const Projects = () => {
           title="Dietary Planner Tool"
           link="https://dietaryplannertool.netlify.app"
           image={dietaryImg}
-          description="Dietary Planner Tool es una herramienta online desarrollada con React y TailwindCSS  para crear planes de dieta a partir de filtros de información que suministra el usuario. Esta herramienta accede a una API de multitud de recetas y crea un plan de dieta de 7 días, dando información calórica de cada receta de dicho plan."
+          description="Dietary Planner Tool es una herramienta online desarrollada con React y TailwindCSS  para crear planes de dieta a partir de filtros de información que suministra el usuario. Esta herramienta accede a una API de multitud de recetas y crea un plan de dieta de 7 días, dando información nutricional de cada receta de dicho plan."
           repoLink ="https://github.com/dmedinasm/newdietaryplan"
         />
       </div>
