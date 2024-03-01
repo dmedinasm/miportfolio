@@ -9,8 +9,8 @@ const AboutMe = () => {
               <h3 className="font-montserrat font-bold text-[130%] md:text-[200%] text-slate-600 mb-2">Mi Camino</h3>
               <ul className="font-montserrat text-[100%] md:text-[130%] text-start leading-8 md:leading-10 flex flex-col gap-8 pl-4 items-start">
                 <li ><span className="font-bold text-slate-600 ">  2007 - Técnico Medio en Informática:</span> Adquirí las bases de la programación y el pensamiento lógico.</li>
-                <li ><span className="font-bold text-slate-600 "> 2009-2014 - Carrera de Ingeniería en Telecomunicaciones:</span> Fortalecí mis conocimientos de lógica computacional a traves de materias como electrónica digital y lenguaje ensamblador aplicado a sistemas con microprocesadores.</li>
-                <li > <span className="font-bold text-slate-600 "> 2014-2022 - Ingeniero en Telecomunicaciones:</span> Desarrollo habilidades de gestión y trabajo en equipo.</li>
+                <li ><span className="font-bold text-slate-600 "> 2009-2014 - Carrera de Ingeniería en Telecomunicaciones:</span> Fortalecí mis conocimientos de lógica computacional a través de materias como electrónica digital y lenguaje ensamblador aplicado a sistemas con microprocesadores.</li>
+                <li > <span className="font-bold text-slate-600 "> 2014-2022 - Ingeniero en Telecomunicaciones:</span> Desarrollé habilidades de gestión y trabajo en equipo.</li>
                 <li ><span className="font-bold text-slate-600 "> 2022-presente - Desarrollador Frontend:</span> Retomo mi pasión por la programación, enfocandome en React. He completado varios cursos y proyectos, y estoy listo para aportar valor a partir de los conocimientos adquiridos.</li>
               </ul>
           </div>
