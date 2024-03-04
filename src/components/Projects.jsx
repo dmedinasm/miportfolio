@@ -32,7 +32,7 @@ const Projects = () => {
           repoLink ="https://github.com/dmedinasm/newdietaryplan"
         />
       </div>
-       
+
     </section>
   )
 }

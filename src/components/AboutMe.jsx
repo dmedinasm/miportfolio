@@ -1,7 +1,6 @@
 import React from 'react'
-import { IoMdCheckmark } from "react-icons/io";
+
 const AboutMe = () => {
-    
   return (
       <section className="py-12 px-8 md:px-[64px] flex flex-col gap-10 ">
           <h2 className="font-montserrat font-bold  text-[200%] md:text-[300%] mb-4 text-slate-600  border-[2px] pl-8" id="aboutMe"> Sobre Mí</h2>
@@ -30,7 +29,7 @@ const AboutMe = () => {
           </div>
           <hr className="mt-12 font-bold text-black text-[4px]" />
       </section>
-   
+
   )
 }
 
