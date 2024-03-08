@@ -9,7 +9,7 @@ const Project = ({ title, link, image, description, repoLink }) => {
           <p className="pr-6 mb-2">github repo del proyecto:</p>
           <a href={repoLink} className="underline" target='_blank' rel="noreferrer">{repoLink}</a>
           </div>
-          <img src={image} alt={`img ${title}`} className="w-[900px] rounded-xl shadow-xl" />
+          <img src={image} alt={`img ${title}`} className="w-[900px] rounded-xl drop-shadow-2xl" />
           <p className="font-montserrat  text-[100%] md:text-[130%] text-start leading-8 md:leading-10 ">{description}</p>
       </div>
 

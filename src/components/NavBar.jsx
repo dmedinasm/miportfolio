@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import { AiOutlineMail, AiFillLinkedin } from 'react-icons/ai'
-
-import { BsTwitterX, BsGithub, BsThreeDotsVertical } from 'react-icons/bs'
+import { BsTwitterX, BsGithub } from 'react-icons/bs'
+import { RxHamburgerMenu } from 'react-icons/rx'
+import { RiCloseFill } from 'react-icons/ri'
 
 import SocialLogo from './SocialLogo'
 
@@ -17,7 +18,11 @@ const NavBar = () => {
               <SocialLogo logoSocial={<AiFillLinkedin className="sm:w-[30px] sm:h-[30px] md:w-[50px] md:h-[50px]"/>} link="https://www.linkedin.com/in/dmedinam" />
               <SocialLogo logoSocial={<BsTwitterX className="sm:w-[30px] sm:h-[30px] md:w-[50px] md:h-[50px]"/>} link="https://twitter.com/dmedinas88" />
               <SocialLogo logoSocial={<BsGithub className="sm:w-[30px] sm:h-[30px] md:w-[50px] md:h-[50px]"/>} link="https://github.com/dmedinasm" />
-              <SocialLogo isOpening={isOpening} logoSocial ={<BsThreeDotsVertical className="sm:w-[30px] sm:h-[30px] md:w-[50px] md:h-[50px] cursor-pointer " onClick={() => setIsOpening(!isOpening)}/>} />
+              <SocialLogo onClick={() => setIsOpening(!isOpening)} isOpening={isOpening} logoSocial ={
+            !isOpening
+              ? <RxHamburgerMenu className="sm:w-[30px] sm:h-[30px] md:w-[50px] md:h-[50px]" onClick={() => setIsOpening(!isOpening)}/>
+              : <RiCloseFill className="sm:w-[30px] sm:h-[30px] md:w-[50px] md:h-[50px]" onClick={() => setIsOpening(!isOpening)}/>
+              }/>
           </div>
           {isOpening &&
             <div className="bg-slate-300  w-[50%]  right-[5%]  top-[75%] md:top-[80%] mr-[2%] md:mr-[4%] lg:mr-[2%] absolute     rounded-md" >
